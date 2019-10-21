@@ -1,0 +1,14 @@
+html{box-sizing: border-box;}
+
+body{
+    position: relative;
+    background-color: black;
+}
+#mainclock{
+    display: flex;
+    font-family: cursive;
+    font-size: 230px;
+    color: white;
+    justify-content: center;
+    letter-spacing: 5px;
+}
