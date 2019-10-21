@@ -7,6 +7,9 @@ var hour = date.getHours()
 var min = date.getMinutes()
 var sec = date.getSeconds()
 var time = 'AM'
+    if(hour > '12'){
+        hour = '0' + (hour - '12')
+    }else(hour)
     if(min < '10'){
         min = '0' + min
     }else(min)
