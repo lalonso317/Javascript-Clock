@@ -2,7 +2,7 @@ html{box-sizing: border-box;}
 
 body{
     position: relative;
-    background-color: black;
+   background-color: white;
 }
 #mainclock{
     display: flex;
